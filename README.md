@@ -9,8 +9,8 @@ Fork 本项目。完成下面的任务。
 * [ ] 熟悉版本为 1.4.13 的 [Element UI](http://element-cn.eleme.io/1.4/#/zh-CN/)
   * [ ] 表格组件 [任务描述](task/component/table.md)
   * [ ] 分页组件 [任务描述](task/component/pagination.md)
-  * [ ] 弹出框(Dialog 对话框) [任务描述](task/component/dialog.md)
-  * [ ] 信息提示 [任务描述](task/component/message.md)
+  * [x] 弹出框(Dialog 对话框) [任务描述](task/component/dialog.md)
+  * [x] 信息提示 [任务描述](task/component/message.md)
   * [x] MessageBox 弹框 [任务描述](task/component/message-box.md)
   * [x] 按钮 [任务描述](task/component/button.md)
   * [ ] 表单类组件
