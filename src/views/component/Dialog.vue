@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <el-button type="primary">显示弹框</el-button>
+    <el-button type="primary" @click="root">显示弹框</el-button>
     <el-form ref="form" :model="form" label-width="80px">
       <el-form-item label="活动名称">
         <el-input v-model="form.name"></el-input>
@@ -48,7 +48,11 @@ export default {
     }  
   },
   methods: {
-    
+      root(){
+         this.$alert("这是一个弹框","标题",{
+           confirmButtonText: '立即创建'
+         })
+      }
   }
 }
 </script>
