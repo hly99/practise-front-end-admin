@@ -9,12 +9,6 @@
       :total="pager.total"
       class="mt-20">
     </el-pagination>
-    <el-pagination
-  :page-size="20"
-  :pager-count="10"
-  layout="total,prev, pager, next"
-  :total="1000">
-</el-pagination>
   </div>
 </template>
 
