@@ -7,7 +7,7 @@ Fork 本项目。完成下面的任务。
 
 ## 任务
 * [ ] 熟悉版本为 1.4.13 的 [Element UI](http://element-cn.eleme.io/1.4/#/zh-CN/)
-  * [ ] 表格组件 [任务描述](task/component/table.md)
+  * [x] 表格组件 [任务描述](task/component/table.md)
   * [x] 分页组件 [任务描述](task/component/pagination.md)
   * [x] 弹出框(Dialog 对话框) [任务描述](task/component/dialog.md)
   * [x] 信息提示 [任务描述](task/component/message.md)
@@ -18,8 +18,8 @@ Fork 本项目。完成下面的任务。
     * [ ] 日期，时间选择器。 [任务描述](task/component/date-time-picker.md)
     * [x] 单选，多选框。 [任务描述](task/component/radio-checkbox.md)
     * [x] 开关。 [任务描述](task/component/switch.md)
-    * [ ] 下拉框(Select 选择器)。 [任务描述](task/component/select.md)
-    * [ ] 级联下拉。 [任务描述](task/component/cascader.md)
+    * [x] 下拉框(Select 选择器)。 [任务描述](task/component/select.md)
+    * [x] 级联下拉。 [任务描述](task/component/cascader.md)
     * [ ] 图片上传。 [任务描述](task/component/upload.md)
   * [ ] 表单验证 [任务描述](task/component/form-validation.md)
 * [ ] 新建路由和菜单 [任务描述](task/page/add-menu-router.md)
