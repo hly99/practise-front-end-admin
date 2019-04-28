@@ -19,6 +19,7 @@
       <el-table-column
         prop="gender"
         label="性别"
+        :formatter="formatter"
         >
       </el-table-column>
     </el-table>
@@ -42,7 +43,15 @@ export default {
     }  
   },
   methods: {
-    
+    formatter(row,column){
+      if(row.gender===1){
+        return '男'
+      }else if(row.gender===2){
+        return '女'
+      }else{
+        return '未知'
+      }
+    }
 }
 }
 </script>
