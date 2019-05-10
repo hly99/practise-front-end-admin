@@ -66,6 +66,20 @@ export default [
 			id: '',
 			name: '列表页',
 			path: '/music/singer/list'
+		},
+		{
+			id: 'aa',
+			name: '测试菜单1',
+			path: '/test/a'
+		}]
+	},
+	{
+		id:'root',
+		name:'测试分类2',
+		children:[{
+			id:'bb',
+			name:'测试菜单2',
+			path:'/test/b'
 		}]
 	}
 ]
