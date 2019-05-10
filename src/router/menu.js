@@ -1,4 +1,7 @@
 import routerConfig from '@/setting/base/router'
+import Dashboard from '@/views/Dashboard'
+import A from '@/views/test/A.vue'
+import B from '@/views/test/B.vue'
 const components = [
   'table',
   'pagination',
@@ -14,14 +17,21 @@ const components = [
   'cascader',
   'upload',
   'form-validation',
+  'aaa'
 ]
 // 路由配置
 var routes = [
   {
+    path:`/test/a`,
+    component: A
+  },
+  {
+    path:`/test/b`,
+    component: B
+  },
+  {
     path: '/',
-    component: resolve => {
-      lazyLoading(resolve, 'Dashboard', false)
-    },
+    component: Dashboard
   },
   ...components.map(item => {
     return {
