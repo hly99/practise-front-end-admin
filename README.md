@@ -22,6 +22,6 @@ Fork 本项目。完成下面的任务。
     * [x] 级联下拉。 [任务描述](task/component/cascader.md)
     * [ ] 图片上传。 [任务描述](task/component/upload.md)
   * [ ] 表单验证 [任务描述](task/component/form-validation.md)
-* [ ] 新建路由和菜单 [任务描述](task/page/add-menu-router.md)
+* [x] 新建路由和菜单 [任务描述](task/page/add-menu-router.md)
 * [ ] 列表页 [任务描述](task/page/list.md)
 * [ ] 详情/新增/编辑页 [任务描述](task/page/update.md)
